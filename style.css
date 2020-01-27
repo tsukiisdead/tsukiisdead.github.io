@@ -13,8 +13,10 @@ main{
 	
 }
 
-footer{
-	background-color: white;
+.footer_background{
+	background-color: #484848;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .home{
 	background-color: white;
@@ -231,8 +233,22 @@ input[type=submit]:hover {
 font-family: Arial;
 	font-size: 15px;
 }
-.footer_img{
-	width: 30px;
+.social-icons {
+  text-align: left;
+  margin-left: 100px;
+  
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:50px;
+  height:50px;
+  margin-right: 20px;
 }
-
-	
