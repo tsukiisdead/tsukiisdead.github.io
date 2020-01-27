@@ -168,7 +168,7 @@ nav li a:hover {
 .dropdown:hover .dropbtn {background-color: white;}
 h2{
 	font-size: 50px;
-	font-family: 'PT Serif', serif;
+	font-family: Arial;
 }
 
 {
@@ -227,5 +227,12 @@ input[type=submit]:hover {
   }
 }
 
+.touch{
+font-family: Arial;
+	font-size: 15px;
+}
+.footer_img{
+	width: 30px;
+}
 
 	
