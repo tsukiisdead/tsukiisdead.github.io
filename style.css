@@ -1,0 +1,231 @@
+/* CSS for Website */
+body{
+	background-color: gray;
+}
+
+header {
+	background-color: white;
+	display: inline;
+}
+
+main{
+	
+	
+}
+
+footer{
+	background-color: white;
+}
+.home{
+	background-color: white;
+}
+.container{
+	width: 1820px;
+	margin: 0 auto;
+	background-color: white;
+}
+.home-big-pic{
+	width: 20%;
+}
+.home-2-col{
+	display: inline-block;
+	width: 850px;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: Arial;
+}
+#sketchbook_pic{
+	width: 550px;
+	
+}
+.column {
+  float: left;
+  width: 33.33%;
+  display: inline-block;
+}
+
+.column img{
+	
+	width: 500px;	
+
+}
+.row{
+	padding-top: 100px;
+	margin-left: -10px;
+	margin-right: -10px;
+	text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.horizontal_img{
+	margin-left: 82px;
+	height: 740px;
+    left: 0; 
+    right: 0;
+    top: 0;
+    bottom: 0; 
+	margin-top: 43px;
+	margin-bottom:	40px;
+}
+.Steward_Alice{
+	text-align: left;
+	font-family: Arial;
+	font-size: 50px;
+}
+.headings_portfolio{
+	text-align: center;
+  font-family: Arial;
+}
+
+.TsukiLogo{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  position: absolute;
+  margin: auto;
+    left: 0; 
+    right: 0;
+    top: 0;
+    bottom: 0;  
+}
+	
+.TsukiText{
+	float: left;
+	width: 200px;
+	vertical-align: left-side;
+}
+.dropbtn {
+  background-color: white;
+  color: grey;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown {
+  float: right;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+  margin-left: -130px;
+  text-align: right;
+  font-family: Arial;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 130px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+background-color: white;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: #4C4C4C;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: white;}
+h2{
+	font-size: 50px;
+	font-family: 'PT Serif', serif;
+}
+
+{
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #808080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column_contact {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row_contact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column_contact, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+	
